@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #EFEC98;
+}
+
+.header {
+  background: #DFDA5F;
+  padding: 20px 0;
+  margin-bottom: 75px;
+}
+.header__text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header__logo {
+  font-weight: 700;
+  color: #54D4CD;
+  font-size: 29px;
+}
+.header__info {
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+.header__wow {
+  margin: 0 30px;
+}
+.header__item {
+  transition: all 0.3s;
+}
+.header__item:hover {
+  color: black;
+  transition: all 0.3s;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.section__start {
+  text-align: center;
+}
+.section h1 {
+  font-size: 65px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.section__span {
+  background: #39BABA;
+  border-radius: 75px;
+  padding: 0px 20px;
+}
+.section__par {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+.section__buttom {
+  font-size: 22px;
+  background-color: #39BA6D;
+  border: #3A77AF 2px solid;
+  border-radius: 69px;
+  padding: 20px 82px;
+  color: azure;
+  margin-bottom: 100px;
+  transition: all 0.3s;
+}
+.section__buttom:hover {
+  background-color: #2a9956;
+  transition: all 0.3s;
+}
+.section__cubs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 141px;
+}
+.section__red {
+  background-color: #D14242;
+  width: 244px;
+  height: 400px;
+  transition: all 0.3s;
+}
+.section__red:hover {
+  background-color: #ae3737;
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+.section__green {
+  background-color: #70D26E;
+  width: 244px;
+  height: 148px;
+  transition: all 0.3s;
+}
+.section__green:hover {
+  background-color: #59aa58;
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+.section__blue {
+  background-color: #54D4CD;
+  width: 244px;
+  height: 347px;
+  transition: all 0.3s;
+}
+.section__blue:hover {
+  background-color: #42a9a3;
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+.section__purple {
+  background-color: #CB54B1;
+  width: 244px;
+  height: 400px;
+  transition: all 0.3s;
+}
+.section__purple:hover {
+  background-color: #9e428a;
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=main.css.map */
